@@ -29,18 +29,3 @@ export const router = createBrowserRouter([
 		],
 	},
 ]);
-
-// createBrowserRouter(
-// 	createRoutesFromElements(
-// 		<Route path='/'>
-// 			<Route element={<App />}>
-// 				<Route path='/' element={<Home />} />
-// 				<Route
-// 					path='/show/:id'
-// 					element={<SearchDetail />}
-// 					loader={(params) => {}}
-// 				/>
-// 			</Route>
-// 		</Route>
-// 	)
-// );
