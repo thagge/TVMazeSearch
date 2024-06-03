@@ -1,0 +1,3 @@
+.home {
+	@apply p-20 mt-4 bg-slate-200 rounded-xl w-[80%] mx-auto text-center;
+}

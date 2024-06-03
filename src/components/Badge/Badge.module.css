@@ -1,0 +1,3 @@
+.badge {
+	@apply text-sm text-white bg-zinc-600 py-1 px-2 rounded-md whitespace-nowrap;
+}

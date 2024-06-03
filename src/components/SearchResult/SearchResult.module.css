@@ -1,0 +1,36 @@
+.container {
+	li {
+		@apply flex flex-row h-28 mt-4 space-x-2 flex-grow hover:bg-slate-600 px-6 py-4 cursor-pointer;
+		img {
+			@apply object-scale-down h-20;
+		}
+
+		.header {
+			@apply flex flex-row justify-between flex-grow;
+		}
+		.content {
+			@apply flex-grow;
+		}
+
+		h3 {
+			@apply text-xl;
+		}
+
+		.rating {
+			@apply mr-6;
+		}
+
+		.genre-badge {
+			@apply mr-2;
+		}
+	}
+}
+
+.empty-result,
+.container {
+	@apply flex w-full flex-col bg-slate-400 rounded-lg mt-2;
+}
+
+.empty-result {
+	@apply p-6;
+}

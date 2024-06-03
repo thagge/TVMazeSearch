@@ -1,0 +1,39 @@
+.container {
+	@apply bg-slate-200 mt-4 p-2 rounded-lg;
+
+	.title-container {
+		@apply flex flex-row justify-between;
+
+		.rating {
+			@apply text-lg;
+		}
+	}
+
+	h1 {
+		@apply text-2xl;
+	}
+
+	.genre-badge {
+		@apply mr-2;
+	}
+
+	hr {
+		@apply h-[2px] my-2 bg-slate-500;
+	}
+
+	.content {
+		@apply mt-4 flex md:space-x-4;
+
+		.cast-container {
+			@apply flex flex-row space-x-2 flex-wrap;
+
+			.cast-badges {
+				@apply flex flex-col sm:flex-row space-y-2 sm:space-x-2 sm:space-y-0 w-full sm:w-auto;
+
+				span {
+					@apply block sm:inline;
+				}
+			}
+		}
+	}
+}

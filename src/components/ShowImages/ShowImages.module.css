@@ -1,0 +1,6 @@
+.images {
+	@apply flex overflow-x-scroll mt-4 space-x-4;
+}
+.image {
+	@apply h-52;
+}
