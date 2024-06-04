@@ -25,7 +25,7 @@ function App() {
 	};
 
 	const handleOnShowClick = (show: Show) => {
-		navigate(`/show/${show.id}`, { replace: true });
+		navigate(`/show/${show.id}`);
 	};
 
 	useEffect(() => {
