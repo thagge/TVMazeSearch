@@ -51,11 +51,15 @@ const SearchDetail = () => {
 							</div>
 						</>
 					)}
-					<hr />
-					Network{' '}
-					<a href={show.network.officialSite} target='_blank'>
-						{show.network.name}
-					</a>
+					{show.network && (
+						<>
+							<hr />
+							Network{' '}
+							<a href={show.network?.officialSite} target='_blank'>
+								{show.network?.name}
+							</a>
+						</>
+					)}
 					<hr />
 					<div>Average runtime {show.averageRuntime}</div>
 					<hr />
