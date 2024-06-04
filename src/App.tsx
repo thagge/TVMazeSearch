@@ -17,7 +17,7 @@ function App() {
 		const closeTimeout = setTimeout(() => {
 			setSearchResultsVisible(false);
 			clearTimeout(closeTimeout);
-		}, 100);
+		}, 300);
 	};
 
 	const handleOnSearchChange = (text: string) => {
